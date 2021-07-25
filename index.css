@@ -1,0 +1,80 @@
+body{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    height: 100vh;
+    
+}
+*{
+    box-sizing: border-box;
+}
+.row{
+    position: relative;
+    z-index: 1;
+    margin:100px;
+    text-align: center;
+    border: 2px;
+
+    
+}
+.row input{
+    font-family: monospace;
+    outline: 1;
+    
+    width: 120%;
+    
+    margin:0 0 15px;
+    padding: 5px;
+    font-size:20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    box-shadow: 5px 10px rgb(129, 36, 52);
+    background: white;
+    border-radius: 15px;
+}
+.row h2{
+    text-align: center;
+    padding: 3px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black ;
+    width: max-content;
+    font-size: 30px;
+
+}
+div button{
+    width: 150px;
+    padding: 7px;
+    font-size: 16px;
+    font-family: fantasy;
+    background: rgb(126, 56, 68);
+    font-weight: 500;
+    text-transform: uppercase;
+    color: white;
+}   
+div button:hover,.form button:active{
+    background-color: rosybrown ;
+}
+#profilecard{
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: 50px;
+    
+    
+    border: 2px solid black;
+    
+    
+    text-align: left;
+    border-radius: 15px;
+    background-color:burlywood;
+    width: 5rem;
+    
+    box-sizing: border-box;
+    box-shadow:5px 10px rgb(129, 36, 52) ;
+}
+#profilecard h2{
+    font-family: cursive;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+   
